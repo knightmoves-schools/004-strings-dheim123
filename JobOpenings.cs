@@ -1,10 +1,14 @@
 ﻿namespace knightmoves;
 public class JobOpenings
 {   
-    // Add your code here
+    public string FirstName = Mark;
+    public string JobTitle = McDonalds;
+    public string City = Atlanta;
 
     public string PrintOpening(){
-        //Add your code here
+        string Thanks = $@"This is {FirstName},
+    he works at {JobTitle} and live in {City}";
         return "";
     }
 }
+
