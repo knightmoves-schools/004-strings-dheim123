@@ -8,7 +8,7 @@ public class JobOpenings
     public string PrintOpening(){
         string Thanks = $@"This is {FirstName},
     he works at {JobTitle} and live in {City}";
-        return "";
+        return Thanks;
     }
 }
 
